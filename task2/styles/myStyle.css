@@ -1,0 +1,157 @@
+
+@-webkit-keyframes scale-up-center{0%{-webkit-transform:scale(.5);transform:scale(.5)}100%{-webkit-transform:scale(1);transform:scale(1)}}@keyframes scale-up-center{0%{-webkit-transform:scale(.5);transform:scale(.5)}100%{-webkit-transform:scale(1);transform:scale(1)}}
+
+body 
+{
+    direction:rtl;
+    background-color:cadetblue;
+}
+.dateb{
+    font-weight:bold;
+     font-family:Calibri;
+}
+
+h1{
+    font-size: 25px;
+    font-family:Calibri;
+    color: darkblue;
+    text-align:center;
+    padding-bottom:10px;
+    
+  
+  }
+p{
+ font-family:Calibri;
+ padding-top:10px;
+ padding-bottom:10px;
+}
+#Adi {
+    font-size:40px;
+    font-family:Calibri;
+    padding-top:10px;
+    padding-bottom:10px;
+    text-align:center;
+}
+#box1{
+    
+    border:double black 5px;
+    border-radius:15px;
+    float: right;
+    height: 100%;
+}
+#box2{
+    float: right; 
+    border:double black 5px;
+    border-radius:15px;
+    height: 100%;
+}
+#box3{
+    border:double black 5px;
+    border-radius:15px;
+    float:left;
+    height: 100%;
+}
+.center{
+    font-weight:bold;
+    font-family:Calibri;
+    text-align:center;
+    padding-right:100px;
+}
+
+box2 {
+    padding-bottom:15px;
+    padding-right:15px;
+    text-align:center;
+    float: right ;
+    height: 100%;
+}
+#container{
+    border-radius:15px;
+    background:url("..//images/back.png");
+    background-position:center center;
+    background-repeat:no-repeat;
+    min-height:600px;
+    height: 600px;
+    width: 900px;
+    margin: 0 auto;
+}
+#box4{
+    
+    border:double black 5px;
+    border-radius:15px;
+    float:left;
+    height: 100%;
+     
+}
+.nav3 {
+    height: auto;
+    
+    float: left;
+    align-self: center;
+    
+    text-align: center;
+    overflow: hidden;
+    vertical-align: middle;
+     display: table-cell;
+     padding-top: 20%;
+}
+
+
+.social-icon {
+    display:inline-block;
+     vertical-align: middle;
+}
+
+
+.perc-10 {
+    width: 10%;
+}
+
+.perc-20 {
+    width: 20%;
+}
+
+.perc-25 {
+    width: 25%;
+}
+
+.perc-33 {
+    width: 33%;
+}
+
+.perc-50 {
+    width: 50%;
+}
+
+
+.perc-100 {
+    width: 100%;
+}
+
+.top {
+    height: 29%;
+}
+
+.bottom {
+    height: 45%;
+}
+
+.space {
+    height: 14%;
+}
+
+.space-bottom {
+    height: 14%;
+}
+
+.text-pad {
+    padding-right: 10px;
+}
+
+
+.social-img:hover  {
+	-webkit-animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+	-moz-animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+	animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+

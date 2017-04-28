@@ -1,0 +1,241 @@
+﻿body {
+    direction: rtl;
+    background-color: #a7b7bc;
+}
+
+/*תפריט ניווט*/
+
+nav {
+    width: 960px;
+    height: 50px;
+    background-color: #946a92;
+    text-align: center;
+}
+
+ul {
+    display: inline-block;
+    list-style: none;
+    padding-top: 15px;
+    font-size: 15pt;
+}
+
+nav ul li {
+    display: inline-block;
+    float: right;
+    padding-right: 20px;
+    font-family: 'Assistant', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+    a:hover {
+        text-decoration: none;
+        color: white;
+    }
+
+.current {
+    color: white;
+}
+
+
+/*עמוד הבית*/
+
+#containeropen {
+    background-image: url("..//images/back.jpg");
+    width: 960px;
+    margin: 0 auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#adi {
+    text-align: center;
+    font-size: 65px;
+    font-family: 'Secular One', sans-serif;
+    padding-top: 5px;
+}
+
+#works {
+    text-align: center;
+    margin-top: 5px;
+    font-family: 'Assistant', sans-serif;
+    font-size: 20pt;
+}
+
+.icons {
+    padding-top: 10px;
+    display: inline-flex;
+}
+
+#facebook a {
+    background-image: url("../images/facebookt.png");
+    width: 50px;
+    height: 44px;
+    margin-right: 350px;
+    display: inline-block;
+    background-size: 100px;
+    background-repeat: no-repeat;
+    background-position: -48px;
+}
+
+    #facebook a:hover {
+        background-image: url("../images/facebookt.png");
+        width: 50px;
+        height: 44px;
+        margin-right: 350px;
+        display: inline-block;
+        background-size: 100px;
+        background-repeat: no-repeat;
+        background-position: 0px;
+    }
+
+#mail a {
+    background-image: url("../images/mailt.png");
+    width: 50px;
+    height: 44px;
+    display: inline-block;
+    background-size: 100px;
+    background-repeat: no-repeat;
+    background-position: -48px;
+}
+
+    #mail a:hover {
+        background-image: url("../images/mailt.png");
+        width: 50px;
+        height: 44px;
+        display: inline-block;
+        background-size: 100px;
+        background-repeat: no-repeat;
+        background-position: 0px;
+    }
+
+#combine {
+    height: 415px;
+    padding-top: 55px;
+    padding-right: 103px;
+}
+
+/*משותף לקורסים*/
+
+
+.course {
+    background-image: url("..//images/back2.jpg");
+    width: 960px;
+    margin: 0 auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.gray {
+    background-color: #a7b7bc;
+    width: 800px;
+    margin: 0 auto;
+    margin-top: 25px;
+}
+
+#desc {
+    text-align: center;
+    font-family: 'Assistant', sans-serif;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    clear: both;
+}
+
+h1 {
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Secular One', sans-serif;
+    padding-top: 5px;
+}
+
+/*תקשורת חזותית*/
+
+#tikp {
+    height: 420px;
+    margin: 15px;
+    margin-top: 60px;
+}
+
+    #tikp:hover {
+        outline: 6px double #6b838b;
+        height: 420px;
+    }
+
+.p1 {
+    font-family: 'Assistant', sans-serif;
+    width: 400px;
+    float: left;
+    padding-top: 20px;
+    padding-top: 11px;
+    padding-left: 50px;
+    line-height: 20px;
+}
+
+#vid {
+    float: left;
+    margin-top: -255px;
+    padding-left: 50px;
+    margin-bottom: 20px;
+}
+
+/*ארגון ויצוג ידע*/
+
+#leap {
+    height: 420px;
+    margin: 15px;
+}
+
+    #leap:hover {
+        outline: 6px double #6b838b;
+        height: 420px;
+    }
+
+.p2 {
+    font-family: 'Assistant', sans-serif;
+    width: 400px;
+    float: left;
+    padding-top: 15px;
+    margin-left: 50px;
+    line-height: 25px;
+}
+
+audio {
+    margin-right: 13px;
+}
+
+/*גרפיקה ממוחשבת*/
+
+#dots a {
+    background-image: url("../images/dotst.png");
+    width: 360px;
+    height: 500px;
+    margin-right: 20px;
+    display: inline-block;
+    background-size: 720px;
+    background-repeat: no-repeat;
+    background-position: 0px;
+    float: right;
+}
+
+    #dots a:hover {
+        background-image: url("../images/dotst.png");
+        width: 360px;
+        height: 500px;
+        margin-right: 20px;
+        display: inline-block;
+        background-size: 720px;
+        background-repeat: no-repeat;
+        background-position: -367px;
+    }
+
+#p3 {
+    font-family: 'Assistant', sans-serif;
+    width: 400px;
+    float: left;
+    padding-top: 15px;
+    float: left;
+    line-height: 25px;
+}

@@ -1,0 +1,1040 @@
+﻿@font-face {
+    font-family: 'TZVIB';
+    src: url('../fonts/TZVIB.TTF') format('truetype');
+}
+
+@font-face {
+    font-family: 'TZVIB.TTF';
+    src: url('../fonts/TZVIB.TTF.eot') format('embedded-opentype');
+}
+
+@font-face {
+    font-family: 'TZVIM';
+    src: url('../fonts/TZVIM.TTF') format('truetype');
+}
+
+@font-face {
+    font-family: 'TZVIM.TTF';
+    src: url('../fonts/TZVIM.TTF.eot') format('embedded-opentype');
+}
+
+@font-face {
+    font-family: 'yehudaclm-bold-webfont';
+    src: url('../fonts/yehudaclm-bold-webfont.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'yehudaclm-bold-webfont';
+    src: url('../fonts/yehudaclm-bold-webfont.eot') format('embedded-opentype');
+}
+
+@font-face {
+    font-family: 'yehudaclm-light-webfont';
+    src: url('../fonts/yehudaclm-light-webfont.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'yehudaclm-light-webfont';
+    src: url('../fonts/yehudaclm-light-webfont.eot') format('embedded-opentype');
+}
+
+/*הנגשה*/
+.skip {
+    position: absolute;
+    top: -1000px;
+    right: -1000px;
+    height: 1px;
+    width: 1px;
+    text-align: left;
+    overflow: hidden;
+}
+
+a.skip:active,
+a.skip:focus,
+a.skip:hover {
+    right: 0;
+    top: 0;
+    width: auto;
+    height: auto;
+    overflow: visible;
+    color: white;
+    background-color: black;
+    padding: 5px;
+    text-decoration: none;
+}
+
+/*כללי*/
+
+body {
+    direction: rtl;
+    background-image: url("../images/body2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#container {
+    width: 960px;
+    background-image: url("../images/container.png");
+    background-size: 960px;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    padding-top: 40px;
+    padding-bottom: 100px;
+}
+
+/*פיתוח דף הבית*/
+
+#little {
+    display: inline-block;
+    float: left;
+    margin-top: -27px;
+    margin-left: 10px;
+}
+
+    #little li {
+        display: inline-block;
+        font-family: TZVIM;
+        font-size: 10pt;
+    }
+
+        #little li a {
+            text-decoration: none;
+            color: black;
+            padding-left: 5px;
+        }
+
+            #little li a:hover {
+                text-decoration: underline;
+                font-weight: bold;
+            }
+
+.currentlittle {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+#topwhite {
+    height: 60px;
+    margin-bottom: -20px;
+    width: 960px;
+    background: rgba(255, 255, 255, 0.7);
+    position: relative;
+    z-index: 1;
+}
+
+
+.sitename {
+    font-family: yehudaclm-bold-webfont;
+    font-size: 27pt;
+    color: #ad1f23;
+    word-spacing: 40px;
+    background-image: url("../images/logo.png");
+    width: 242px;
+    height: 34px;
+    background-size: 32px;
+    background-repeat: no-repeat;
+    background-position: 115px;
+}
+
+    .sitename a {
+        text-decoration: none;
+        color: #ad1f23;
+    }
+
+.desc {
+    font-family: yehudaclm-light-webfont;
+    font-size: 13pt;
+}
+
+.logo {
+    text-align: center;
+    float: right;
+    margin-right: 10px;
+    margin-top: 5px;
+}
+
+.topnav {
+    display: inline-block;
+    margin-right: 9px;
+}
+
+    .topnav > li {
+        display: inline-block;
+        float: right;
+    }
+
+    .topnav li a {
+        text-decoration: none;
+        display: block;
+        color: black;
+        padding-top: 20px;
+        font-family: TZVIB;
+        font-size: 12pt;
+        width: 133px;
+        height: 40px;
+        text-align: center;
+    }
+
+    .topnav > li:nth-child(5) a {
+        text-align: right;
+        padding-right: 34px;
+    }
+
+    .topnav li a:hover {
+        /*color: #ad1f23;*/
+        background: white;
+        text-decoration: underline;
+    }
+
+.current {
+    text-decoration: underline;
+}
+
+
+.topnav li ul {
+    display: none;
+    position: absolute;
+}
+
+.topnav li:hover ul {
+    display: block;
+    width: 133px;
+}
+
+    .topnav li:hover ul li {
+        display: block;
+        background: rgba(255, 255, 255, 0.7);
+        font-family: TZVIM;
+        font-size: 10pt;
+    }
+
+        .topnav li:hover ul li a {
+            text-align: right;
+            padding-right: 10px;
+            font-size: 11pt;
+            width: 123px;
+        }
+
+.topnav li ul li {
+    background: rgba(255, 255, 255, 0.7);
+}
+
+#buttons {
+    margin-top: 10px;
+    margin-right: 10px;
+    position: absolute;
+    z-index: 999;
+    
+}
+
+.upp {
+    margin-top: -18px;
+}
+
+.vid {
+    width: 960px;
+    overflow: hidden;
+    display: block;
+    height: 356px;
+    margin-top: 35px;
+}
+
+#zugv {
+    margin-top: -108px;
+}
+
+#squere {
+    margin-right: 80px;
+    margin-top: 40px;
+}
+
+    #squere section {
+        width: 200px;
+        height: 200px;
+        background: rgba(255, 255, 255, 0.7);
+        margin: 30px;
+        display: inline-block;
+    }
+
+.category {
+    font-family: yehudaclm-bold-webfont;
+    color: #ad1f23;
+    font-size: 20pt;
+    padding-top: 7px;
+    padding-right: 7px;
+}
+
+#drinkh {
+    background-image: url("../images/drinkhome.png");
+    background-size: 200px;
+    background-repeat: no-repeat;
+    height: 200px;
+    width: 200px;
+}
+
+#gibushh {
+    background-image: url("../images/gibushhome.png");
+    background-size: 250px;
+    background-position: -19px -38px;
+    background-repeat: no-repeat;
+    height: 200px;
+    width: 200px;
+}
+
+#ravakh {
+    background-image: url("../images/ravakhome.png");
+    background-size: 200px;
+    background-repeat: no-repeat;
+    height: 200px;
+    width: 200px;
+}
+
+#familyh {
+    background-image: url("../images/familyhome.png");
+    background-size: 200px;
+    background-repeat: no-repeat;
+    height: 200px;
+    width: 200px;
+}
+
+#knowh {
+    background-image: url("../images/knowhome.png");
+    background-size: 200px;
+    background-repeat: no-repeat;
+    height: 200px;
+    width: 200px;
+}
+
+#birthdayh {
+    background-image: url("../images/birthdayhome.png");
+    background-size: 250px;
+    background-position: -12px -50px;
+    background-repeat: no-repeat;
+    height: 200px;
+    width: 200px;
+}
+
+#squere section:hover {
+    -webkit-box-shadow: 0 0 20px 5px rgba(120,18,21,1);
+    box-shadow: 0 0 20px 5px rgba(120,18,21,1);
+}
+
+#squere a {
+    text-decoration: none;
+}
+
+/*עיצוב סוג האירוע*/
+.sugp {
+    font-family: yehudaclm-bold-webfont;
+    font-size: 40pt;
+    margin-top: 45px;
+    margin-right: 20px;
+}
+
+.bread {
+    margin-right: 20px;
+}
+
+    .bread li {
+        display: inline-block;
+        font-family: yehudaclm-bold-webfont;
+    }
+
+        .bread li a {
+            color: black;
+            font-family: yehudaclm-bold-webfont;
+            font-weight: bold;
+        }
+
+            .bread li a:hover {
+                border-top: 1.5px black solid;
+            }
+
+        .bread li:after {
+            content: " >> ";
+            font-family: yehudaclm-light-webfont;
+            font-weight: bold;
+        }
+
+        .bread li:last-child:after {
+            content: " ";
+        }
+
+.exp {
+    font-family: yehudaclm-bold-webfont;
+    font-size: 15pt;
+    margin-right: 20px;
+    margin-top: 60px;
+    margin-bottom: 20px;
+}
+
+#twhite {
+    background: rgba(255, 255, 255, 0.7);
+    width: 960px;
+    height: 310px;
+}
+
+.typegames {
+    width: 319px;
+    height: 310px;
+    display: inline-block;
+    float: right;
+}
+
+    .typegames p {
+        font-size: 16pt;
+        font-family: yehudaclm-bold-webfont;
+        margin: 10px;
+    }
+
+#picgibush {
+    background-image: url(../images/gibush.jpg);
+    width: 323px;
+    height: 160px;
+    /*margin-bottom: 31px;*/
+    background-size: 470px;
+    background-position: -47px -43px;
+    background-repeat: no-repeat;
+}
+
+.tgames {
+    font-size: 16pt;
+    margin: 10px;
+}
+
+    .tgames a {
+        color: #2a7a76;
+        font-family: yehudaclm-bold-webfont;
+    }
+
+        .tgames a:hover {
+            border-top: 1.5px solid #2a7a76;
+        }
+
+#picravak {
+    background-image: url(../images/ravak.png);
+    width: 320px;
+    height: 160px;
+    background-size: 435px;
+    background-position: -100px -80px;
+    background-repeat: no-repeat;
+}
+
+#picknow {
+    background-image: url(../images/know.jpg);
+    width: 322px;
+    height: 160px;
+    background-size: 325px;
+    background-position: -2px -25px;
+    background-repeat: no-repeat;
+}
+
+#bwhite {
+    background: rgba(255, 255, 255, 0.7);
+    width: 960px;
+    height: 310px;
+    margin-top: 40px;
+}
+
+#picbirthday {
+    background-image: url(../images/birthday.jpg);
+    width: 322px;
+    height: 160px;
+    background-size: 325px;
+    background-position: 1px -55px;
+    background-repeat: no-repeat;
+}
+
+#picfamily {
+    background-image: url(../images/family.jpg);
+    width: 323px;
+    height: 160px;
+    background-size: 319px;
+    background-position: 4px -11px;
+    background-repeat: no-repeat;
+}
+
+#picdrink {
+    background-image: url(../images/drink2.jpg);
+    width: 322px;
+    height: 160px;
+    background-size: 474px;
+    background-position: -150px -94px;
+    background-repeat: no-repeat;
+}
+
+/*עיצוב משחקי גיבוש*/
+
+.toppic {
+    background-image: url("../images/gibush.jpg");
+    width: 960px;
+    height: 350px;
+    background-size: 960px;
+    margin-top: 60px;
+}
+
+.hgibush {
+    font-family: yehudaclm-bold-webfont;
+    font-size: 40pt;
+    color: #432e57;
+    padding: 20px;
+}
+
+#brgib {
+    margin-top: 30px;
+}
+
+.whitegames {
+    margin-right: 4px;
+}
+
+    .whitegames section {
+        display: inline-block;
+        float: right;
+        width: 278px;
+        height: 312px;
+        background: rgba(255, 255, 255, 0.7);
+        margin: 20px;
+    }
+
+        .whitegames section:hover {
+            -webkit-box-shadow: 0 0 20px 5px rgba(120,18,21,1);
+            box-shadow: 0 0 20px 5px rgba(120,18,21,1);
+        }
+
+.hgames {
+    font-family: yehudaclm-bold-webfont;
+    font-size: 16pt;
+    margin-top: 15px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.whitegames p {
+    font-family: yehudaclm-bold-webfont;
+    font-size: 14pt;
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+
+
+
+
+.whitegames ul li {
+    font-family: yehudaclm-bold-webfont;
+    font-size: 13pt;
+    list-style: none;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    padding-right: 40px;
+}
+
+    .whitegames ul li:nth-child(1) {
+        background-image: url(../images/numpeople.png);
+        height: 27px;
+        width: 126px;
+        background-size: 30px;
+        background-repeat: no-repeat;
+        background-position: 133px -1px;
+        padding-top: 5px;
+    }
+
+    .whitegames ul li:nth-child(2) {
+        background-image: url(../images/prepare.png);
+        height: 27px;
+        width: 168px;
+        background-size: 34px;
+        background-repeat: no-repeat;
+        background-position: 170px -1px;
+        padding-top: 5px;
+    }
+
+    .whitegames ul li:nth-child(3) {
+        background-image: url(../images/grouptype.png);
+        height: 36px;
+        width: 168px;
+        background-size: 34px;
+        background-repeat: no-repeat;
+        background-position: 171px 2px;
+        padding-top: 11px;
+    }
+
+.clear {
+    clear: both;
+    display: block;
+    line-height: 0%;
+}
+
+.whitegames a {
+    float: left;
+    font-weight: bold;
+    color: #2a7a76;
+    margin-left: 15px;
+}
+
+.not-allowed {
+    cursor: not-allowed;
+}
+
+/*עיצוב מסיבת רווקים/ות*/
+.toprav {
+    background-image: url("../images/2.jpg");
+    width: 960px;
+    height: 350px;
+    background-size: 960px;
+    margin-top: 60px;
+    background-position: 1px -178px;
+}
+
+
+/*עיצוב משחקי היכרות*/
+.topknow {
+    background-image: url("../images/know.jpg");
+    width: 960px;
+    height: 350px;
+    background-size: 960px;
+    margin-top: 60px;
+    background-position: 1px -64px;
+}
+
+/*עיצוב ימי הולדת*/
+
+.read {
+    color: #2a7a76;
+    float: left;
+    text-decoration: underline;
+}
+
+.whitegames section a {
+    text-decoration: none;
+    color: black;
+}
+
+.down {
+    padding-bottom: 20px;
+}
+
+.topbir {
+    background-image: url("../images/birthday.jpg");
+    width: 960px;
+    height: 350px;
+    background-size: 960px;
+    margin-top: 60px;
+    background-position: 0px -187px;
+}
+
+/*עיצוב פעילות משפחתית*/
+#pdown {
+    padding-bottom: 36px;
+}
+
+.topfam {
+    background-image: url("../images/family2.jpg");
+    width: 960px;
+    height: 350px;
+    background-size: 960px;
+    margin-top: 60px;
+    /*background-position: 29px -180px;*/
+}
+
+.hfamily {
+    font-family: yehudaclm-bold-webfont;
+    font-size: 40pt;
+    color: black;
+    padding: 20px;
+}
+
+/*עיצוב משחקי שתייה*/
+.topdrink {
+    background-image: url("../images/drink2.jpg");
+    width: 960px;
+    height: 350px;
+    background-size: 960px;
+    margin-top: 60px;
+    background-position: 0px -119px;
+}
+
+.hdrink {
+    font-family: yehudaclm-bold-webfont;
+    font-size: 40pt;
+    color: white;
+    padding: 20px;
+}
+
+/*עיצוב שילוב זרועות*/
+
+#picture {
+    background-image: url("../images/arms.jpeg");
+    width: 416px;
+    height: 301px;
+    background-size: 365px;
+    float: left;
+    background-repeat: no-repeat;
+    margin: 20px;
+}
+
+.hshiluv {
+    font-family: yehudaclm-bold-webfont;
+    font-size: 40pt;
+    color: black;
+    padding-top: 45px;
+    padding-right: 20px;
+}
+
+#whitearms {
+    background: rgba(255, 255, 255, 0.7);
+    width: 920px;
+    /*height: 600px;*/
+    margin-top: 30px;
+    margin-right: 19px;
+}
+
+
+
+
+    #whitearms section ul li {
+        font-family: yehudaclm-bold-webfont;
+        font-size: 13pt;
+        list-style: none;
+        margin-right: 20px;
+        margin-bottom: 10px;
+        padding-right: 40px;
+    }
+
+    #whitearms section ul {
+        padding-top: 30px;
+    }
+
+    #whitearms ul li:nth-child(1) {
+        background-image: url(../images/numpeople.png);
+        height: 27px;
+        width: 126px;
+        background-size: 30px;
+        background-repeat: no-repeat;
+        background-position: 133px -1px;
+        padding-top: 5px;
+    }
+
+    #whitearms ul li:nth-child(2) {
+        background-image: url(../images/prepare.png);
+        height: 27px;
+        width: 168px;
+        background-size: 34px;
+        background-repeat: no-repeat;
+        background-position: 170px -1px;
+        padding-top: 5px;
+    }
+
+    #whitearms ul li:nth-child(3) {
+        background-image: url(../images/grouptype.png);
+        height: 36px;
+        width: 168px;
+        background-size: 34px;
+        background-repeat: no-repeat;
+        background-position: 171px 2px;
+        padding-top: 11px;
+    }
+
+#also {
+    background-image: url(../images/also.png);
+    height: 36px;
+    /*width: 168px;*/
+    background-size: 34px;
+    background-repeat: no-repeat;
+    background-position: 864px 120px;
+    padding-top: 130px;
+    padding-right: 60px;
+    padding-bottom: 30px;
+    font-family: yehudaclm-bold-webfont;
+    font-size: 13pt;
+}
+
+    #also a {
+        color: #2a7a76;
+    }
+
+        #also a:hover {
+            border-top: 1.5px solid #2a7a76;
+        }
+
+#whitearms h2 {
+    font-family: yehudaclm-bold-webfont;
+    font-size: 20pt;
+    padding-right: 20px;
+}
+
+.levels {
+    font-family: yehudaclm-bold-webfont;
+    font-size: 15pt;
+    padding-right: 20px;
+    width: 730px;
+    padding-top: 10px;
+    padding-bottom: 45px;
+}
+
+/*עיצוב זוג משלים*/
+
+#zugvid {
+    margin-right: 393px;
+    margin-top: -29px;
+}
+
+#vidgame {
+    width: 960px;
+    overflow: hidden;
+    display: block;
+    height: 369px;
+    margin-top: -144px;
+}
+
+#alsozug {
+    background-image: url(../images/also.png);
+    height: 36px;
+    background-size: 34px;
+    background-repeat: no-repeat;
+    background-position: 868px 5px;
+    margin-top: -116px;
+    padding-top: 16px;
+    padding-right: 60px;
+    padding-bottom: 30px;
+    font-family: yehudaclm-bold-webfont;
+    font-size: 13pt;
+}
+
+    #alsozug a {
+        color: #2a7a76;
+    }
+
+        #alsozug a:hover {
+            border-top: 1.5px solid #2a7a76;
+        }
+
+/*עיצוב עמוד אודות*/
+.hlittle {
+    font-family: yehudaclm-bold-webfont;
+    font-size: 40pt;
+    color: black;
+    margin-top: 40px;
+    margin-right: 20px;
+}
+
+.whitelittle {
+    background: rgba(255, 255, 255, 0.7);
+    width: 920px;
+    margin-top: 30px;
+    margin-right: 19px;
+}
+
+    .whitelittle h2 {
+        font-family: yehudaclm-bold-webfont;
+        font-size: 20pt;
+        padding-right: 20px;
+        padding-top: 20px;
+    }
+
+#names {
+    margin-right: 70px;
+}
+
+    #names div {
+        display: inline-block;
+        width: 230px;
+        height: 230px;
+        margin-right: 20px;
+        text-align: center;
+    }
+
+        #names div p {
+            font-family: yehudaclm-bold-webfont;
+            font-size: 15pt;
+            padding-top: 240px;
+        }
+
+#shir {
+    background-image: url(../images/shir.jpeg);
+    background-size: 230px;
+    background-repeat: no-repeat;
+}
+
+#adi {
+    background-image: url(../images/adi.jpeg);
+    background-size: 230px;
+    background-repeat: no-repeat;
+}
+
+#lea {
+    background-image: url(../images/lea.jpeg);
+    background-size: 230px;
+    background-repeat: no-repeat;
+}
+
+.p1 {
+    font-family: yehudaclm-bold-webfont;
+    font-size: 13pt;
+    margin-right: 20px;
+    margin-top: 20px;
+    padding-bottom: 20px;
+    width: 625px;
+}
+
+#p2 {
+    font-family: yehudaclm-bold-webfont;
+    font-size: 13pt;
+    margin-right: 20px;
+    margin-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.whitelittle ul {
+    margin-top: 10px;
+}
+
+    .whitelittle ul li {
+        font-family: yehudaclm-bold-webfont;
+        font-size: 13pt;
+        /*list-style: none;*/
+        margin-right: 20px;
+        margin-bottom: 10px;
+    }
+
+.whitelittle a {
+    color: #2a7a76;
+}
+
+    .whitelittle a:hover {
+        border-top: 1.5px solid #2a7a76;
+    }
+
+#course {
+    padding-bottom: 25px;
+}
+
+#hitlogo {
+    width: 180px;
+    margin-right: 380px;
+}
+
+#noline {
+    text-decoration: none;
+}
+
+    #noline:hover {
+        border-top: none;
+    }
+
+/*עיצוב צור קשר*/
+.whiteconect {
+    background: rgba(255, 255, 255, 0.7);
+    width: 920px;
+    margin-top: 30px;
+    margin-right: 19px;
+}
+
+form {
+    margin-top: 25px;
+    margin-bottom: 131px;
+    padding: 20px;
+    font-family: yehudaclm-bold-webfont;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    font-family: yehudaclm-bold-webfont;
+}
+
+input[type ='text'] {
+    display: block;
+    margin-bottom: 15px;
+}
+
+input[type ='submit'] {
+    font-family: yehudaclm-bold-webfont;
+    margin-top: 10px;
+}
+
+textarea {
+    display: block;
+    margin-bottom: 15px;
+}
+
+/*עיצוב מפת האתר*/
+#sitemap {
+    background: rgba(255, 255, 255, 0.7);
+    width: 900px;
+    margin: 20px;
+}
+
+    #sitemap section {
+        display: inline-block;
+        vertical-align: top;
+        margin-right: 30px;
+    }
+
+    #sitemap h2 {
+        font-family: yehudaclm-bold-webfont;
+        font-size: 20pt;
+        padding-top: 20px;
+    }
+
+
+
+#abc {
+    margin-right: 650px;
+    margin-top: -1222px;
+}
+
+#sitemap section > ul {
+    list-style: none;
+    margin-bottom: 10px;
+}
+
+
+
+#sitemap ul li a {
+    font-family: yehudaclm-bold-webfont;
+    color: black;
+    font-size: 14px;
+}
+
+#sitemap ul li ul li a {
+    color: black;
+    font-size: 11px;
+}
+
+    #sitemap ul li ul li a:hover {
+        border-top: 1px black solid;
+    }
+
+#sitemap ul li ul {
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+#sitemap .not-allowed {
+    color: gray;
+}
+
+    #sitemap .not-allowed:hover {
+        border: none;
+    }
+
+#sitemap h2 a {
+    color: #2a7a76;
+}
+
+#sitemap h2 > a:hover {
+    border-top: 2px #2a7a76 solid;
+}
+
+#sitemap a:hover {
+    border-top: 1.5px black solid;
+}
+
+/*עיצוב ייצוג אינטראקטיבי*/
+
+
+#brgame{
+    margin-bottom:20px;
+}
